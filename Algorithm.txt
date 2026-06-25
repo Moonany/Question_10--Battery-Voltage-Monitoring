@@ -1,0 +1,14 @@
+Start
+Declare variable voltage of type double
+Prompt user to enter first battery voltage reading
+Read voltage
+While voltage >= 12:
+
+Display "Battery voltage normal: [voltage] V"
+Prompt user to enter next voltage reading
+Read voltage
+
+
+End While
+Display "Battery voltage low. Recharge required."
+Stop
